@@ -1,0 +1,3 @@
+#!/bin/bash
+vendor/bin/phpunit -c tests/phpunit/phpunit.xml
+vendor/bin/phpspec r -c tests/phpspec/phpspec.yml

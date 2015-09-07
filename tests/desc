@@ -1,0 +1,3 @@
+#!/bin/bash
+echo "vendor/bin/phpspec d $1 -c tests/phpspec/phpspec.yml"
+vendor/bin/phpspec d $1 -c tests/phpspec/phpspec.yml
